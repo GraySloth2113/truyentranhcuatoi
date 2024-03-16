@@ -1,0 +1,49 @@
+.select-theloai{
+    height: 128px;
+    width: 100%;
+    background-color: #242526;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+.trangthai,.xephang{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    margin: 8px 0;
+    
+    
+
+}
+.trangthai span,.xephang span{
+    padding: 5px 15px;
+    color: #707a85;
+    
+    margin-left:10px;
+    margin-right: 10px;
+    
+    font-size:20px ;
+}
+.trangthai p a,.xephang p a {
+    text-decoration: none;
+    padding: 10px 6px;
+    color:rgb(197, 199, 201);
+    border: 1px solid#707a85;
+    border-radius: 10px;
+    font-size:15px ;
+    margin: 0 5px;
+}
+.select-theloai{
+    display: flex;
+    flex-direction: column;
+    height: 128px;
+    justify-content: center;
+    
+    
+}
+.content-theloai{
+    height: 172px;
+    width: 100%;
+}
+.info{
+    height: 100%;
+}
