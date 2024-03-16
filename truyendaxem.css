@@ -1,0 +1,13 @@
+.Truyendaxem_content{
+    background-color: black;
+    margin-top: 15px;
+    height: 60px;
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    
+    
+    
+    
+}
