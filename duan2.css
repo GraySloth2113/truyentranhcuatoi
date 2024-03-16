@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700&family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+:root{
+    --colorback:#00000;
+    --colorwhile:#fffffff;
+}
+body{
+    
+    background-color: #161818;
+    min-height: 100vh;
+    overflow-X: hidden;
+    width: 100%;
+}
+.container{
+    margin: 0px 100px 0px 100px;
+    position: relative;
+    height: 100vh;
+}
+/* logo and dind wedsite  */
+.find{
+    position: relative;
+    height: 40px;
+    line-height: 41px;
+    width: 300px;
+    border:1px solid #a1b7b7;
+    border-radius: 15px;
+    left: 350px;
+    top: 20px;
+}
+.find-input{
+    position: absolute;
+    width:254px ;
+    outline: none;
+    font-size: 0.8em;
+    padding: 0 20px;
+    line-height: 40px;
+    background: transparent;
+    transition: .1s ease ;
+    border-radius: 15px;
+    z-index: 100;
+    border: none;
+}
+.lableline{
+    position: absolute;
+    font-size: 0.81em;
+    color: black;
+    line-height: 43px;
+    padding:0 25px ;
+    width: 250;
+    pointer-events: none;
+    user-select: none;
+    
+   
+    
+}
+.fa-solid.fa-magnifying-glass::before{
+    position: absolute;
+    
+    font-size: 1.6em;
+    right: 0;
+    
+    line-height: 40px;
+    top: 0px;
+    padding: 0  10px;
+   
+
+    
+}
+.find-input:focus + .lableline{
+    display: none;
+}
+.navbar-wedsite{
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fa9144;
+}
+.tag_list{
+    display: flex;
+    list-style: none;
+    
+    
+
+}
+.tag_list .list{
+    padding: 10px 20px;
+    color: #e8e6e3;
+    user-select: none;
+    
+    
+}
+.list_a{
+    text-decoration: none;
+}
+
+
+.navbar_chiphi button{
+    padding: 5px 10px; 
+    margin: 5px 10px;
+    background-color: #2b2f30;
+    color: #e8e6e3;
+}
+/* .tag_list .list:hover{
+    background-color: #fb7818;
+} */
+/* //sline */
+.sline-show{
+    position: relative;
+    left: 0px;
+    overflow: hidden;
+    height: 355px;
+    width: 912px;
+    flex: 2.5;
+}
+.sline-list{
+    display: flex;
+    height: 355px;
+    transition: 0.5s ease;
+    width: 912px;
+}
+
+.bnt:hover{
+    color: #a1b7b7;
+    cursor: pointer;
+}
+.bnt{
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    height: 20px;
+    color: white;
+    margin: 0px 10px;
+    
+}
+.bnt-right{
+    right: 0;
+}
+.top-nap{
+    position: relative;
+    height: 355px;
+    background-color: #808080;
+    width: 388px;
+    flex: 1;
+}
+.container-content{
+    display: flex;
+    margin: 25px 0px;
+    
+}
+.content{
+    margin: 0 30px;
+}
+.content ol li{
+    color:#273131;
+    list-style:symbols() ;
+    pointer-events: none;
+    user-select: none;
+}
+.list-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list2{
+    margin: 5px 0px 5px 55px;
+}
+.list1{
+    margin: 5px 0px;
+}
+.list11{
+    position: relative;
+}
+.con{
+    position: absolute;
+    left: 100px;
+}
+.chap{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tentruyen{
+    position: absolute;
+    bottom: 20px;
+}
+.gioithieu{
+    position: absolute;
+    bottom: 8px;
+}
+/* selection_truyennendoc */
+.cac_list{
+    display: flex;
+    
+    transition:.5s ease; 
+}
+.list11{
+    margin: 10px 10px;
+    flex: 1;
+}
+.selection_truyennendoc{
+    overflow: hidden;
+}
+.quangcao{
+    height: 200px;
+    width: 400px;
+    position:absolute;
+    background: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+}
+.conten_quangcao{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+/* .list::after{
+    content: "";
+    background: #fff;
+    height: 2px;
+    width:0%;
+    float: left;
+    transition: .5s ease;
+    
+   
+    
+}
+.list:hover::after{
+    width: 100%;
+} */
+.list{
+    transform: scale(1);
+   
+}
+.list:hover{
+    color: #545757;
+    transform: scale(1.05);
+    transition: .3s ease;
+    
+}
+/* ///theloai */
+.select_theloai{
+    display: none;
+    height: 250px;
+    padding: 30px 0;
+    position: absolute;
+    z-index: 100;
+    background:#313535;
+    
+    
+    gap: 47px;
+
+}
+a{text-decoration: none;}
+.select_theloai p{
+    line-height: 40px;
+    float: left;
+    width: 140px;
+}
+.select_theloai p a{
+    color: #e4e6eb!important;
+    padding-left:5px ;
+}
+.select_theloai p:hover{
+    background: #161818;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.upload{
+    height: auto;
+}
+.upload .upload-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.list11 img{
+    border-radius: 10px;
+}
+
+
+
+
+
+
